@@ -8,6 +8,6 @@ app.get("/",(req,res)=>{
     res.send("Heroku Testing!!!")
 })
 
-app.listen(port,(req,res)=>{
+app.listen(port,()=>{
     console.log("server is running.....");
 })
